@@ -34,6 +34,12 @@ const Navbar = () => {
             </ul>
 
             <div class="d-flex align-items-center">
+              <Link to={"/login"}>
+                <button type="button" class="btn btn-primary px-3 me-2">
+                  Login
+                </button>
+              </Link>
+
               <Link to={"/register"}>
                 <button type="button" class="btn btn-primary px-3 me-2">
                   Register
